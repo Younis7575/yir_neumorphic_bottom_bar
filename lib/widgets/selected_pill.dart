@@ -27,13 +27,13 @@ class SelectedPill extends StatelessWidget {
         ),
         boxShadow: [
           BoxShadow(
-            color: Colors.white.withOpacity(0.85),
+            color: Colors.white.withValues(alpha:0.85),
             offset: const Offset(-3, -3),
             blurRadius: 6,
             spreadRadius: 1,
           ),
           BoxShadow(
-            color: Color(0xFF7C8899).withOpacity(0.55),
+            color: Color(0xFF7C8899).withValues(alpha:0.55),
             offset: const Offset(3, 3),
             blurRadius: 6,
             spreadRadius: 1,
@@ -52,12 +52,12 @@ class SelectedPill extends StatelessWidget {
                 shape: BoxShape.circle,
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.white.withOpacity(0.80),
+                    color: Colors.white.withValues(alpha: 0.80),
                     offset: const Offset(-2, -2),
                     blurRadius: 5,
                   ),
                   BoxShadow(
-                    color: const Color(0xFF8A97A5).withOpacity(0.60),
+                    color: const Color(0xFF8A97A5).withValues(alpha: 0.60),
                     offset: const Offset(2, 2),
                     blurRadius: 5,
                   ),

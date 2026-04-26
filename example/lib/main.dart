@@ -93,7 +93,7 @@ class _PageContent extends StatelessWidget {
           Icon(
             item.icon,
             size: 80,
-            color: const Color(0xFF505774).withOpacity(0.25),
+            color: const Color(0xFF505774).withValues(alpha: .25),
           ),
           const SizedBox(height: 16),
           Text(

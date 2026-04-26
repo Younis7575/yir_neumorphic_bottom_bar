@@ -51,12 +51,12 @@ class NeumorphicNavBar extends StatelessWidget {
         borderRadius: BorderRadius.circular(borderRadius),
         boxShadow: [
           BoxShadow(
-            color: Colors.white.withOpacity(0.80),
+            color: Colors.white.withValues(alpha:0.80),
             offset: const Offset(-5, -5),
             blurRadius: 14,
           ),
           BoxShadow(
-            color: const Color(0xFF9AA5B1).withOpacity(0.75),
+            color: const Color(0xFF9AA5B1).withValues(alpha:0.75),
             offset: const Offset(5, 5),
             blurRadius: 14,
           ),

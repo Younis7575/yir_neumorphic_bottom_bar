@@ -39,19 +39,19 @@ class _CircleButtonState extends State<CircleButton> {
           boxShadow: _pressed
               ? [
                   BoxShadow(
-                    color: Colors.black.withOpacity(0.18),
+                    color: Colors.black.withValues(alpha: 0.18),
                     offset: const Offset(2, 2),
                     blurRadius: 4,
                   ),
                 ]
               : [
                   BoxShadow(
-                    color: Colors.white.withOpacity(0.85),
+                    color: Colors.white.withValues(alpha: 0.85),
                     offset: const Offset(-4, -4),
                     blurRadius: 8,
                   ),
                   BoxShadow(
-                    color: const Color(0xFF8A97A5).withOpacity(0.65),
+                    color: const Color(0xFF8A97A5).withValues(alpha: 0.65),
                     offset: const Offset(4, 4),
                     blurRadius: 8,
                   ),
