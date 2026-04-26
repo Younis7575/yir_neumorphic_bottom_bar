@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:neumorphic_bottom_bar/models/nav_item.dart'; 
-import 'package:neumorphic_bottom_bar/widgets/neumorphic_nav_bar.dart';
+import 'package:yir_neumorphic_bottom_bar/models/nav_item.dart'; 
+import 'package:yir_neumorphic_bottom_bar/widgets/neumorphic_nav_bar.dart';
 
 void main() {
   runApp(const MyApp());

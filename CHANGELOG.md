@@ -1,3 +1,3 @@
-## 0.0.1
+## 1.0.0
 
-- Initial release of Yir Glass Card package
+- Initial release of Yir Neumorphic Bottom Bar package with smooth animations and customizable items

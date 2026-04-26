@@ -1,5 +1,5 @@
 name: example
-description: Example app for neumorphic_bottom_bar package
+description: Example app for yir_neumorphic_bottom_bar package
 publish_to: 'none'
 version: 1.0.0
 
@@ -9,7 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  neumorphic_bottom_bar:
+  yir_neumorphic_bottom_bar:
     path: ../
 
 dev_dependencies:
